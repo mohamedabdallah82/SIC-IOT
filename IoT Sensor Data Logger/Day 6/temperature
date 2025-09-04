@@ -1,0 +1,10 @@
+/home/mohamed/iot_logger/logs/temperature.log {
+    size 1M
+    rotate 5
+    compress
+    missingok
+    notifempty
+    copytruncate
+    su mohamed mohamed
+}
+
